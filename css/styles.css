@@ -8,3 +8,52 @@ i {
     border: 1px solid grey;
     padding: 10px;
   }
+  .carousel{
+    interval:100;
+  }
+
+.img-fluid{
+    background-image: url(../img/alphabet.jpg);
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.carer{
+    background-image: url(../img/alphabet.jpg);
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+}
+.speaker-1{
+    background-image:url("../img/nanny.jpg");
+    background-position:top;
+    background-size:cover;
+    height:300px;
+    width:100%;
+}
+.speaker-2{
+    background-image:url("../img/grandma.jpg");
+    background-position:top;
+    background-size:cover;
+    height:300px;
+    width:100%;
+}
+.speaker-3{
+    background-image:url("../img/pose.jpg");
+    background-position:top;
+    background-size:cover;
+    height:300px;
+    width:100%;
+}
+.speaker-4{
+    background-image:url("../img/smile.jpg");
+    background-position:top;
+    background-size:cover;
+    height:300px;
+    width:100%;
+}
