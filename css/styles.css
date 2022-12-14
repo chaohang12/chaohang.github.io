@@ -30,7 +30,7 @@ i {
     background-size: auto;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 100%;
 }
 .speaker-1{
