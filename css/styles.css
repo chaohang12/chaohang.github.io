@@ -78,3 +78,13 @@ width : 100%;
 .icon{
     color: white;
 }
+.carer-container {
+    width:75%;
+    margin: 0 auto;
+}
+
+/* @media screen and (max-width: 768px){
+    .carer-container {
+        width:95%
+    }
+} */
