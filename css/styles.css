@@ -2,6 +2,9 @@
     background-size: cover;
     background-attachment: fixed;
 }
+/* .navbar{
+    position: sticky;
+} */
 i {
     background-color: rgb(5, 5, 5);
     border-radius: 50%;
@@ -21,6 +24,7 @@ i {
     max-width: 100%;
 }
 
+
 .carer{
     background-image: url(../img/alphabet.jpg);
     background-size: auto;
@@ -32,23 +36,29 @@ i {
 .speaker-1{
     background-image:url("../img/nanny.jpg");
     background-position:top;
-    background-size:cover;
+    /* background-size:cover; */
     height:300px;
     width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .speaker-2{
     background-image:url("../img/grandma.jpg");
     background-position:top;
-    background-size:cover;
+    /* background-size:cover; */
     height:300px;
     width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .speaker-3{
     background-image:url("../img/pose.jpg");
     background-position:top;
-    background-size:cover;
+    /* background-size:cover; */
     height:300px;
     width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .speaker-4{
     background-image:url("../img/smile.jpg");
@@ -56,4 +66,15 @@ i {
     background-size:cover;
     height:300px;
     width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer{
+
+width : 100%;
+}
+
+.icon{
+    color: white;
 }

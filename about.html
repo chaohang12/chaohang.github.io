@@ -12,7 +12,7 @@
     <title>About Us</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">About Us</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +36,27 @@
         </div>
       </nav>
 
-      <section class="bg-light py-5">
+      <!-- <section class="bg-light py-5">
         <div class="container text-center">
           <h1>We're more than just a babysitter!</h1>
           <p class="text-muted">Our services are more than just watching your child. <br>
             We provide educational activities because the learning never stop <br> no matter where your children are at.</p>
-      </section>
+      </section> -->
 
-      <div class="row" style="border:none; background:white; height: 600px;">
-		<div class="col-xs-6">
-			<img src="./img/reading.jpg" style="height:300px; margin-left:-15px;"/>
-		</div>
-		<div class="col-xs-6">  
-			<h3>Hello World</h3>
-			<p style="font-size:20px; color:#000205;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit adipiscing blandit. Aliquam placerat, velit a fermentum fermentum, mi felis vehicula justo, a dapibus quam augue non massa.</p>
-		</div>
-	    </div>
-
+      <div class="p-5 text-center bg-image rounded-3" style="background-image: url(./img/alphabet.jpg);height: 225px;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">We're more than just a babysitter!</h1>
+              <h4 class="mb-3">Our services are more than just watching your child. <br>
+                We provide educational activities because the learning never stop <br> 
+                no matter where your children are at.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <img src="./img/family.jpg" alt="test image" class="responsive image" style="width: 100%;height: auto">
 
       <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
@@ -79,9 +83,9 @@
             </form>
           </section>
           <h>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.twitter.com"target="blank"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="https://www.instagram.com"target="blank"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="https://www.facebook.com"target="blank"><i class="fa-brands fa-facebook icon"></i></a>
           </h>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2022 Copyright
