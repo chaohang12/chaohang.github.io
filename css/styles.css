@@ -2,6 +2,18 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.mask{
+    padding-top:15px;
+}
+
+.title {
+    padding-top: 65px;
+}
+.contact {
+    padding-top: 200px;
+}
+
 /* .navbar{
     position: sticky;
 } */
@@ -88,3 +100,11 @@ width : 100%;
         width:95%
     }
 } */
+
+.cursive {
+    font-family: 'Pacifico', cursive;
+}
+
+.paytone {
+    font-family: 'Paytone One', sans-serif;
+}
